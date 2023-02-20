@@ -1,0 +1,159 @@
+.top{
+    position:fixed;
+    background-color: white;
+    z-index: 1;
+}
+.fashion {
+    text-decoration: none;
+    cursor: pointer;
+    color:black;
+    padding: 2.5%;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.search {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(237, 238, 241);
+    color: rgb(107, 105, 105);
+    text-align: left;
+}
+
+.dropdown-menu{
+    position: absolute;
+    top: 125%;
+}
+
+.dropdown-button:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
+}
+
+.second {
+    position: absolute;
+    top: 20%;
+}
+
+
+.caption {
+    text-align: center;
+    margin-left: 5%;
+    font-family: cursive;
+    font-size: xxx-large;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgb(91, 89, 89);
+}
+
+.third {
+    position: absolute;
+    top: 90%;
+}
+
+.head {
+    font-family: cursive;
+    font-size: xxx-large;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+}
+
+.fourth {
+    position: absolute;
+    top: 125%;
+}
+
+.deal {
+    width:10%;    
+    line-height: 10;
+    border: 15px solid transparent;
+    position: relative;
+    cursor: pointer;
+    border-image: url("https://www.shutterstock.com/image-vector/bright-horizontal-frame-white-space-260nw-1457649605.jpg") 15% round;
+}
+
+.newdeal {
+    width:12.5%;    
+    line-height: 10;
+    border: 15px solid transparent;
+    position: relative;
+    cursor: pointer;
+    border-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRXxL9yuuaBwVVvubzf3uVfPapyl6xuYIMJUXm6lvukqMG9NCSTTzwTxLhHFz2CokSPB0&usqp=CAU") 15% round;
+    border-image-outset: 2px;    
+}
+
+.deal > img {
+    max-width: 100%;
+    display: block;
+}
+
+.newdeal > img {
+    max-width: 100%;
+    display: block;
+}
+
+.positioning{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    background-color: red;
+    color: white;
+    padding: 4px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 10px;
+}
+
+.link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    }
+
+.fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    text-orientation: inherit;
+    writing-mode: vertical-lr;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    font-size: large;
+    padding: 1%;
+}
+
+.fifth {
+    position: absolute;
+    top: 195%;   
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/267/284/original/festa-junina-celebration-background-free-vector.jpg'); 
+}
+
+.sixth {
+    position: absolute;
+    top: 229%;
+}
+
+.seventh {
+    position: absolute;
+    top: 305%;
+}
+
+.eighth {
+    position: absolute;
+    top: 325%;
+}
+
+.nineth {
+    position: absolute;
+    top:392%;
+}
+
+.newcard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

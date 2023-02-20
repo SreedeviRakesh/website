@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="icon" href="https://images.indianexpress.com/2021/01/myntra.png" >
+    <link rel="stylesheet" href="bs.css">
+    <title>Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color: rgb(226, 226, 222);">
+    <div class="container-fluid border-bottom p-4 top">
+        <div class="row d-flex align-items-center">
+            <div class="col-sm-1 col-md-1 col-lg-1" ><a href="file:///C:/Users/sreed/OneDrive/Desktop/html/myntra_bs/bs.html" target="_blank"><img src="https://images.indianexpress.com/2021/01/myntra.png" style="width:100%;"></a></div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <a href="https://www.myntra.com/shop/men" class="fashion">MEN</a>
+                <a href="https://www.myntra.com/shop/women" class="fashion">WOMEN</a>
+                <a href="https://www.myntra.com/shop/kids" class="fashion">KIDS</a>
+                <a href="https://www.myntra.com/shop/home-living" class="fashion">HOME & LIVING</a>
+                <a href="https://www.myntra.com/personal-care" class="fashion">BEAUTY</a>
+                <a href="https://www.myntra.com/studio/home?appRoute=%7B%22url%22%3A%22%2Fstudio%2Fhome%22%7D" class="fashion">STUDIO<sup style="color:rgb(220, 104, 104); font-size:x-small">NEW</sup></a>
+            </div>
+            <div class="col-sm-5 col-md-5 col-lg-5"><input type="text" class="search" placeholder="Search for products, brands and more">          
+            </div>
+            <div class="col-sm-2 col-md-2 col-lg-2">
+              <div class=" dropdown-button d-inline-block">
+                <button type="button" class="btn" data-bs-toggle="dropdown"><span class="glyphicon glyphicon-user d-block p-2"></span>Profile</button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://www.myntra.com/login?referer=https://www.myntra.com/" target="_blank">Log In</a></li>
+                    <li><a class="dropdown-item" href="https://www.myntra.com/wishlist" target="_blank">Wishlist</a></li>
+                    <li><a class="dropdown-item" href="https://www.myntra.com/login?referer=https%3A%2F%2Fwww.myntra.com%2Fmy%2Fcoupons">Coupons</a></li>
+                  </ul>
+              </div>
+                <a href="https://www.myntra.com/wishlist" class="btn"><span class="glyphicon glyphicon-heart-empty d-block p-2"></span>Wishlist</a>
+                <button type="button" class="btn"><span class="glyphicon glyphicon-shopping-cart d-block p-2"></span>Bag</button>
+            </div>
+        </div>    
+    </div>
+
+    <!-- <div class="container-fluid second">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12"><img src="https://assets.indiadesire.com/images/myntra%20fashion%20carnival%20sale.jpg" alt="Workplace" usemap="#workmap">
+        <map name="workmap">
+          <area shape="rect" coords="0,0,825,563" alt="men" href="https://www.myntra.com/shop/men">
+          <area shape="rect" coords="825,0,1670,563" alt="women" href="https://www.myntra.com/shop/women">
+        </map></div>
+      </div>
+  </div> -->
+
+  <div class="container-fluid bg-light p-0 second">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" style="max-width:100%;">
+  
+        <div class="item active">
+          <a href="https://www.myntra.com/most_loved_ethnic_brands?rf=Discount%20Range%3A60.0_100.0_60.0%20TO%20100.0&sort=popularity">
+            <img src="https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2022-02/Myntra%20Kurta%20and%20Saree%20Festival%20-%201.jpeg" alt="indian" style="max-width: 50%; float: left;">
+          </a>
+            <p class="caption" style="padding-top:10%; font-size: xx-large;"><b>INDIAN WEAR</b></p>
+            <p class="caption" style="font-size:large;">MIN 60% OFF</p>        
+        </div>
+  
+        <div class="item">
+          <a href="https://www.myntra.com/accessories?f=Brand%3AHAUTE%20SAUCE%20by%20%20Campus%20Sutra%3A%3ACategories%3AClutches%2CHandbags%2CWallets%3A%3AGender%3Amen%20women%2Cwomen&rf=Discount%20Range%3A50.0_70.0_50.0%20TO%2070.0">
+            <img src="https://images.herzindagi.info/image/2022/Oct/handbags-for-women.jpg" alt="indian" style="max-width:50%; float: left;">
+          </a>
+            <p class="caption" style="padding-top:10%; font-size: xx-large;"><b>HAND BAGS</b></p>
+            <p class="caption" style="font-size:large;">40% - 50% OFF</p>
+        </div>
+      
+        <div class="item">
+          <a href="https://www.myntra.com/mens-apparel?f=Brand%3AU.S.%20Polo%20Assn.%2CU.S.%20Polo%20Assn.%20Denim%20Co.%2CU.S.%20Polo%20Assn.%20Tailored&rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0">
+            <img src="https://mma.prnewswire.com/media/1385700/US_Polo_Assn.jpg?p=twitter" alt="indian" style="max-width:45%; float: left;">
+          </a>
+            <p class="caption" style="padding-top:10%; font-size: xx-large;"><b>US POLO ASSN.</b></p>
+            <p class="caption" style="font-size:large;">UPTO 50% OFF</p> 
+        </div>  
+    
+      </div>
+     
+    </div>
+  </div>
+
+    <div class="container-fluid third">
+      <div class="row">
+        <p class="text-center text-danger head">GRAND OPENING</p>
+        <p class="text-center text-warning head">OFFERS</p>
+        <p class="text-center fs-2"><b>FEB 8 | MIDNIGHT - 2 AM</b></p>
+      </div>      
+    </div>
+    
+    <div class="container-fluid fourth">
+      <div class="d-flex flex-row flex-wrap">
+        <div class="deal">
+          <a href="https://www.myntra.com/occsn&ethnckids?rf=Discount%20Range%3A60.0_100.0_60.0%20TO%20100.0"><span class="link"></span></a>
+          <div class="positioning">Ethnic Wear<br>MIN 50% OFF</div>
+          <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/17907650/2022/7/28/b2610c8f-386d-4057-8171-f5b7ca3c6f7b1659031788056pspeachesGirlsNavyBlueMustardEmbroideredReadytoWearLehengaBl1.jpg">
+        </div>
+      <div class="deal">
+        <a href="https://www.myntra.com/wrogn?f=Brand%3AWROGN%2CWROGN%20ACTIVE%3A%3ACategories%3AJackets%2CJeans%2CShirts%2CShorts%2CSweaters%2CSweatshirts%2CTrack%20Pants%2CTrousers%2CTshirts%3A%3AGender%3Amen%2Cmen%20women&rf=Discount%20Range%3A50.0_100.0_50.0%20TO%20100.0"><span class="link"></span></a>
+        <div class="positioning">Virats Faves<br>MIN 50% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/1320929/2019/5/31/bd91806e-374d-47df-b231-c296643dd2841559282905641-WROGN-Men-Black-Slim-Fit-Mid-Rise-Jeans-7121559282904321-1.jpg">
+      </div>
+      <div class="deal">
+        <a href="https://www.myntra.com/myntra?f=Brand%3AMast%20%26%20Harbour%2CModa%20Rapido%3A%3ACategories%3ATshirts%3A%3AGender%3Amen%2Cmen%20women&rf=Price%3A149.0_499.0_199.0%20TO%20562.0"><span class="link"></span></a>
+        <div class="positioning">T-Shirts<br>STARTING Rs169</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/11363110/2020/3/5/573bb0f9-564e-4a11-a91a-e6e1c8f3fcba1583391728565-WROGN-Men-Tshirts-491583391727243-1.jpg">
+      </div>
+      <div class="deal">
+        <a href="https://www.myntra.com/myntra?f=Brand%3AHERE%26NOW%2CMast%20%26%20Harbour%3A%3ACategories%3AShirts%3A%3AGender%3Amen%2Cmen%20women&rf=Discount%20Range%3A60.0_100.0_60.0%20TO%20100.0"><span class="link"></span></a>
+        <div class="positioning">Casual Shirts<br>MIN. 60% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/19166760/2022/8/17/236fb1dd-eafe-4476-84f8-f7bdb3101ba31660735375815USPoloAssnMenBurgundyHorizontalStripedTailoredFitPureCottonC1.jpg">
+      </div>
+      <div class="deal">
+        <a href="https://www.myntra.com/mens-casual-wear?f=Brand%3ADenizen%20From%20Levis%2CLevis%2CTommy%20Hilfiger%3A%3ACategories%3AJackets%2CJeans%2CShirts%2CShorts%2CSweaters%2CSweatshirts%2CTrack%20Pants%2CTrousers%2CTshirts&rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0"><span class="link"></span></a>
+        <div class="positioning">Top Casuals<br>MIN 40% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/productimage/2019/12/12/1aab2a18-6774-4f83-b292-fe301755a3351576102551329-1.jpg">
+      </div>
+      <div class="deal">
+        <a href="https://www.myntra.com/mens-casual-wear?f=Brand%3AFlying%20Machine%2CU.S.%20Polo%20Assn.%2CU.S.%20Polo%20Assn.%20Denim%20Co.%3A%3ACategories%3ABlazers%2CJackets%2CJeans%2CShirts%2CShorts%2CSweaters%2CSweatshirts%2CTrack%20Pants%2CTrousers%2CTshirts%2CWaistcoat&rf=Discount%20Range%3A60.0_100.0_60.0%20TO%20100.0"><span class="link"></span></a>
+        <div class="positioning">Casual Trends<br>MIN 60% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/7488103/2019/8/22/acfba45f-8f9c-4b97-b5bc-a909418bdf4c1566454100620-Dennis-Lingo-Men-Green-Slim-Fit-Solid-Casual-Shirt-358156645-3.jpg">
+      </div>
+      <div class="deal">
+        <a href="https://www.myntra.com/mens-casual-wear?f=Brand%3AHIGHLANDER%2CJack%20%26%20Jones%3A%3ACategories%3ABlazers%2CJackets%2CJeans%2CShirts%2CShorts%2CSweaters%2CSweatshirts%2CTrack%20Pants%2CTrousers%2CTshirts%2CWaistcoat&rf=Discount%20Range%3A65.0_100.0_65.0%20TO%20100.0"><span class="link"></span></a>
+        <div class="positioning">Bestselling Casuals<br>MIN 65% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/1364628/2016/8/31/11472636737718-Roadster-Men-Blue-Regular-Fit-Printed-Casual-Shirt-6121472636737160-1.jpg">
+      </div>
+      <div class="deal">
+        <a href="https://www.myntra.com/mens-casual-wear?f=Brand%3AGANT%2CNautica%3A%3ACategories%3ABlazers%2CJackets%2CJeans%2CShirts%2CShorts%2CSweaters%2CSweatshirts%2CTrack%20Pants%2CTrousers%2CTshirts%2CWaistcoat&rf=Discount%20Range%3A55.0_100.0_50.0%20TO%20100.0"><span class="link"></span></a>
+        <div class="positioning">Casual Picks<br>MIN 50% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/12957314/2022/4/13/194bb0a0-b196-40f8-9038-6fbd4e3651461649824365055UnitedColorsofBenettonMenBlueSlimFitDenimCasualShirt1.jpg">
+      </div>
+      <div class="deal">
+        <a href="https://www.myntra.com/mens-casual-wear?f=Brand%3ADeFacto%2CORIGIN%20BY%20ZALORA%2CZALORA%20ACTIVE%2CZALORA%20BASICS%3A%3ACategories%3ABlazers%2CBoxers%2CBriefs%2CJackets%2CJeans%2CLounge%20Pants%2CLounge%20Shorts%2CLounge%20Tshirts%2CShirts%2CShorts%2CSweaters%2CSweatshirts%2CThermal%20Tops%2CTrack%20Pants%2CTrousers%2CTrunk%2CTshirts&rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0"><span class="link"></span></a>
+        <div class="positioning">Classy Casuals<br>UPTO 60% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/19818628/2022/9/6/ec27eee6-d613-4423-8e0f-007aea1603c31662468109188Shirts1.jpg">
+      </div>
+      <div class="deal">
+        <a href="https://www.myntra.com/mens-casual-wear?f=Brand%3ADeFacto%2CORIGIN%20BY%20ZALORA%2CZALORA%20ACTIVE%2CZALORA%20BASICS%3A%3ACategories%3ABlazers%2CBoxers%2CBriefs%2CJackets%2CJeans%2CLounge%20Pants%2CLounge%20Shorts%2CLounge%20Tshirts%2CShirts%2CShorts%2CSweaters%2CSweatshirts%2CThermal%20Tops%2CTrack%20Pants%2CTrousers%2CTrunk%2CTshirts&rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0"><span class="link"></span></a>
+        <div class="positioning">Stylish Casuals<br>STARTING Rs699</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/10341699/2022/8/25/c23fd879-a9b3-4515-a181-558523a71b9b1661423122029-LOCOMOTIVE-Men-Black--Grey-Slim-Fit-Checked-Casual-Shirt-342-1.jpg">
+      </div>
+      <div class="deal">
+        <a href="https://www.myntra.com/mac?sort=popularity"><span class="link"></span></a>
+        <div class="positioning">Luxe Makeup<br>GIFT PURCHASE</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/10213545/2019/10/10/e0ed7339-d63c-4d6a-abb4-bd8931c4bd391570703866570-INCOLOR-Women-Makeup-Kit-UC005-165-gm-7791570703865939-1.jpg">
+      </div>
+      <div class="deal">
+        <a href="https://www.myntra.com/personal-care?f=Brand%3ABiotique%2CLotus%20Botanicals%2CLotus%20Herbals%2CLotus%20Organics%2CTaavi&pinProductsCsv=1661465,1919958,9314861"><span class="link"></span></a>
+        <div class="positioning">Top personal care<br>MIN. 25% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/16928094/2022/2/7/19ed00ed-8c16-404f-8563-c1e96b23f62f1644230782287-Olay-Women-Face-Moisturisers-5391644230781964-1.jpg">
+      </div>
+      <div class="deal">
+        <a href="https://www.myntra.com/personal-care?f=Brand%3AETUDE%2CInnisfree%2CLANEIGE%2CTONYMOLY%2CThe%20Face%20Shop&pinProductsCsv=20777360,20174160,20174158,20174156"><span class="link"></span></a>
+        <div class="positioning">Korean Skincare Ess.<br>UPTO 50% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/16242364/2022/4/8/9cc776d1-9c70-493b-850b-cb41213e29321649418891962-Quench-Botanics-Mama-Cica-Pore-Clearing-Exfoliating-Face-Was-1.jpg">
+      </div>
+      <div class="deal">
+        <a href="https://www.myntra.com/womens-western-wear?rf=Discount%20Range%3A60.0_100.0_60.0%20TO%20100.0"><span class="link"></span></a>
+        <div class="positioning">Trendiest Tops<br>MIN 60% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/12222036/2020/10/6/d7ae3065-98d4-42d0-b244-d2b18802ff101601959656577-SASSAFRAS-Women-Black-Solid-High-Neck-Cropped-Top-4441601959-1.jpg">
+      </div>
+      <div class="deal">
+        <a href="https://www.myntra.com/womens-western-wear?f=Brand%3AAntheaa%2CAthena%2CKASSUALLY%2CSASSAFRAS%2CplusS%3A%3ACategories%3ADresses&rf=Discount%20Range%3A60.0_100.0_60.0%20TO%20100.0&sort=popularity"><span class="link"></span></a>
+        <div class="positioning">Dresses<br>60%-80% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/9052863/2020/2/17/9ed33a1d-1c3f-4164-9617-c555f3f378691581934823926-Miss-Chase-Women-Peach-Coloured-Printed-Maxi-Top-98415819348-1.jpg">
+      </div>
+      <div class="deal">
+        <a href="https://www.myntra.com/womens-western-wear?rf=Discount%20Range%3A60.0_100.0_60.0%20TO%20100.0"><span class="link"></span></a>
+        <div class="positioning">Stylish Trends<br>MIN 60% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/10308625/2019/7/26/d9c41f8f-d0b8-409b-bc6e-9f098686537b1564143903185-SASSAFRAS-Women-Dresses-1251564143902226-1.jpg">
+      </div>
+      <div class="deal">
+        <a href="https://www.myntra.com/womens-western-wear?f=Brand%3ABerrylush%2CBerrylush%20Curve%2CCURVY%20STREET%2CSTREET%209&rf=Discount%20Range%3A60.0_100.0_60.0%20TO%20100.0"><span class="link"></span></a>
+        <div class="positioning">Top Picks<br>MIN 50% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/10308591/2019/7/29/1b9df8fd-214e-4e8c-a0b6-759a9167e1e61564379559418-SASSAFRAS-Women-Black-A-Line-Dress-291564379558115-1.jpg">
+      </div>
+      <div class="deal">
+        <a href="https://www.myntra.com/womens-western-wear?f=Brand%3AONLY%2CVero%20Moda&rf=Discount%20Range%3A50.0_100.0_50.0%20TO%20100.0"><span class="link"></span></a>
+        <div class="positioning">Must-Have Styles<br>50%-70% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/14600902/2022/12/23/cdd2b028-fc02-44db-9cc3-f41d6465986d1671794905330JuniperBlackGeorgetteSareeStyleMaxiDress1.jpg">
+      </div>
+      <div class="deal">
+        <a href="https://www.myntra.com/womens-western-wear?f=Brand%3ADeFacto%2CFemme%20Luxe%2CI%20Saw%20It%20First%2CJerfSports%2CKENDALL%20%26%20KYLIE%2CLC%20Waikiki%2CMANGO%2CMiss%20Poem%2CMissguided%2CNA-KD%2COXXO%2CTrendyol%2Cbebe%20PLUS%2Cbusem&rf=Discount%20Range%3A50.0_100.0_50.0%20TO%20100.0"><span class="link"></span></a>
+        <div class="positioning">International Styles<br>MIN 50% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/16542068/2022/1/5/47eeaafa-9ccd-45d8-b12d-98e12d112ca81641371558008-Berrylush-Women-Pink-Ditsy-Floral-Drawstring-Front-Milkmaid--1.jpg">
+      </div>
+      <div class="deal">
+        <a href="https://www.myntra.com/womens-western-wear?f=Brand%3AAND%2CAllen%20Solly%20Woman%2CCalvin%20Klein%20Jeans%2CDeFacto%2CFlying%20Machine%2CLevis%2CMANGO%2CMarks%20%26%20Spencer%2CONLY%2CSPYKAR%2CTommy%20Hilfiger%2CTrendyol%2CU.S.%20Polo%20Assn.%2CU.S.%20Polo%20Assn.%20Women%2CVan%20Heusen%20Woman%2CVero%20Moda&rf=Discount%20Range%3A50.0_100.0_50.0%20TO%20100.0&sort=popularity"><span class="link"></span></a>
+        <div class="positioning">Popular Styles<br>MIN 70% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/7269188/2018/9/11/c72d893e-148d-4d25-b0a3-a47ea82336481536647563969-La-Zoire-Women-Tops-5491536647563875-1.jpg">
+      </div>
+    </div>
+    </div>
+    <div class="container-fluid fifth">
+      <div class="row">
+        <p class="text-center text-danger head">BUDGET BUYS</p>
+        <p class="text-center text-primary fs-1 head">WOW TRENDS AT WOW PRICES!</p>
+        <p class="text-center text-success fs-2"><b>SHOP NOW</b></p>
+      </div>      
+    </div>
+    
+    <div class="container-fluid sixth">
+      <div class="d-flex flex-row flex-wrap justify-content-center">
+        <div class="newdeal">
+          <a href="https://www.myntra.com/men-tshirts?rf=Price%3A149.0_400.0_149.0%20TO%20400.0&sort=popularity"><span class="link"></span></a>
+          <div class="positioning bg-warning">T-Shirts<br>UNDER Rs.399</div>
+          <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2308267/2018/1/29/11517216335231-Roadster-Men-Maroon-Printed-Round-Neck-T-shirt-5591517216335098-1.jpg">
+        </div>
+      <div class="newdeal">
+        <a href="https://www.myntra.com/men-shirts?rf=Price%3A149.0_600.0_149.0%20TO%20600.0&sort=popularity"><span class="link"></span></a>
+        <div class="positioning bg-warning">Shirts<br>UNDER Rs.599</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/20566496/2022/11/1/ae02daac-f2d0-4e9c-978b-014587e39eff1667241676412Shirts1.jpg">
+      </div>
+      <div class="newdeal">
+        <a href="https://www.myntra.com/men-jeans?rf=Price%3A149.0_900.0_149.0%20TO%20900.0&sort=popularity"><span class="link"></span></a>
+        <div class="positioning bg-warning">Jeans<br>UNDER Rs899</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2312011/2018/4/20/11524215901340-Roadster-Men-Navy-Blue-Slim-Fit-Mid-Rise-Clean-Look-Jeans-5181524215901159-1.jpg">
+      </div>
+      <div class="newdeal">
+        <a href="https://www.myntra.com/men-footwear?f=Categories%3ASports%20Shoes&rf=Price%3A499.0_1500.0_499.0%20TO%201500.0"><span class="link"></span></a>
+        <div class="positioning bg-warning">Sports Shoes<br>UNDER Rs.1499</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/16513990/2022/1/26/d8f01fca-59e2-4f82-8214-9cd61d373be41643184909272-Roadster-Men-White-Sneakers-6661643184908868-1.jpg">
+      </div>
+      <div class="newdeal">
+        <a href="https://www.myntra.com/men-footwear?f=Categories%3ACasual%20Shoes&rf=Price%3A499.0_1500.0_499.0%20TO%201500.0"><span class="link"></span></a>
+        <div class="positioning bg-warning">Casual Shoes<br>UNDER Rs.1499</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/17333752/2022/2/28/1b9a9e4a-3eaf-43e6-b6ef-b255ae87c8461646053483586RoadsterMenBlueTexturedSneakers1.jpg">
+      </div>
+      <div class="newdeal">
+        <a href="https://www.myntra.com/men-footwear?f=Categories%3AFlip%20Flops&rf=Price%3A99.0_300.0_99.0%20TO%20300.0"><span class="link"></span></a>
+        <div class="positioning bg-warning">Flip-Flops<br>UNDER Rs.200</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/11506388/2022/6/6/16eb3c50-35b7-4964-b568-4ed59f48fd7f1654510415936-WROGN-Men-Navy-Blue--White-Brand-Logo-Print-Sliders-65516545-1.jpg">
+      </div>
+      <div class="newdeal">
+        <a href="https://www.myntra.com/kids?rf=Price%3A75.0_900.0_75.0%20TO%20900.0"><span class="link"></span></a>
+        <div class="positioning bg-warning">Kids Wear<br>UNDER Rs.899</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/17775244/2022/4/6/efb7e9b0-470b-4bb5-99a7-8186f4a122ea1649224516381pspeachesYellowFloralMidiDress1.jpg">
+      </div>
+      <div class="newdeal">
+        <a href="https://www.myntra.com/accessories?f=Categories%3ASmart%20Watches%2CWatch%20Gift%20Set%2CWatches&rf=Price%3A224.0_1000.0_224.0%20TO%201000.0"><span class="link"></span></a>
+        <div class="positioning bg-warning">Watches and Wearables<br>UNDER Rs.999</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/10052037/2022/4/21/d73e6c56-8fee-4584-b1fa-b5c69d7b6bec1650542493115-Titan-Women-Purple-Analogue-Watch-2480WM02-2301650542492836-1.jpg">
+      </div>
+      <div class="newdeal">
+        <a href="https://www.myntra.com/women-kurtas-kurtis-suits?f=Categories%3AKurta%20Sets&rf=Price%3A356.0_1000.0_356.0%20TO%201000.0"><span class="link"></span></a>
+        <div class="positioning bg-warning">Kurta Sets<br>UNDER Rs.999</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/11569354/2021/10/25/96e2815f-51eb-48ac-aa20-f64943f861851635163117668-Yufta-Women-Mauve-Ethnic-Motifs-Printed-Regular-Kurta-with-P-1.jpg">
+      </div>
+      <div class="newdeal">
+        <a href="https://www.myntra.com/dresses?f=Gender%3Amen%20women%2Cwomen&rf=Price%3A168.0_700.0_168.0%20TO%20700.0"><span class="link"></span></a>
+        <div class="positioning bg-warning">Dresses<br>UNDER Rs699</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/15577328/2021/10/19/3f477c11-9550-4db8-b360-7621b5fddd9b1634625769534-Antheaa-Women-Dresses-7701634625767867-1.jpg">
+      </div>
+      <div class="newdeal">
+        <a href="https://www.myntra.com/womens-western-wear?f=Categories%3ATops%2CTshirts&rf=Price%3A109.0_600.0_109.0%20TO%20600.0"><span class="link"></span></a>
+        <div class="positioning bg-warning">TOPS & TEES<br>UNDER Rs.599</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/10968582/2020/2/18/19c50d33-f838-453e-8ccc-838df5ca00b41582017499216-Roadster-Women-Tshirts-9451582017497392-1.jpg">
+      </div>
+      <div class="newdeal">
+        <a href="https://www.myntra.com/women-kurtas-kurtis-suits?f=Categories%3AKurtas&rf=Price%3A356.0_600.0_356.0%20TO%20600.0"><span class="link"></span></a>
+        <div class="positioning bg-warning">Kurtas<br>UNDER Rs.599</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/1991317/2017/8/9/11502276600620-Libas-Women-Maroon-Solid-A-Line-Kurta-6521502276600462-1.jpg">
+      </div>
+      <div class="newdeal">
+        <a href="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/1991317/2017/8/9/11502276600620-Libas-Women-Maroon-Solid-A-Line-Kurta-6521502276600462-1.jpg"><span class="link"></span></a>
+        <div class="positioning bg-warning">JEANS<br>UNDER Rs.899</div>
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBISERERERISEhEREhESEhEREhERERERGBgZGhgUGBgcIS4lHB4rHxoZJzgmKy8xNTU1GiQ7QDszPy40NTEBDAwMEA8QHhISHzQkJSE0NDQxNDE2MT0xNDQ0NDQ0NDQ2NDExNjQ0NjE0NDQ0NDQ0NDE0NDQxNDE0NDo0MTQ0NP/AABEIAQMAwgMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAAAgEDBQQGB//EAD4QAAIBAgMFBgMHAgQHAQAAAAECAAMRBBIhBSIxQVEGE2FxgZEyobEjQlJyweHxYpIUY9HwFSQzQ4Kywgf/xAAYAQEAAwEAAAAAAAAAAAAAAAAAAQIDBP/EACIRAQEBAAICAgMAAwAAAAAAAAABAgMRITESQQQTMiJCcf/aAAwDAQACEQMRAD8Aw4QhIBC8IQIi1XU21KlKb5ybMCXIUADS2hXW54mNO6i+F7tqdamRUsi57VE3W3w2dCwPBRqk0x7V16UpU7vA1SrXLriTdSRlORKYOoHVveYnZvEUaZq164dzTyKgUqT1W+YWK3sbZgTlFgeE9kmycMcI964WkVq7xqUjoWRdCQv3rDzngNiinUxXdlm7neJuRd7MoF7EDh46XveTb5JPD3uydip39J+8d95AbrRuSbqc2/zHhK+0OysP3xLVCGORiDWwyAAIhudSeU48Vh1qMtShUyVsKqr3bMGRim9TNNhfdOoGYm+UXIuJyY9GrPnJp3NPeAzKci6KdfvZQt1Gtx4iWVaGAwOHGLBFS7LiNL1cOV3nI4XBvrG7SbNR6+HRKmZzam1hTZUyrvHR+Nm8tZgYirT7zPTqFyKqVAFW17OrEXvcHjynJtyuK2JvSUEE06aMiv8AaO43iBbUnKDpwvIvhMb22sC+IalkbObVXOiE7z21Af8AomRt7ZD0loI7gMyHdKurG7sbgHQ/EBx5RNrV1RloUAa1WlTWmVRWZsyAl2NhwBLe15nAvY1KjjvLWCNu5CBkRTfRRYE624SLfCZOzY+hUY5SwKpmFirizNx5EcgOPITK2pkz3Rs1wCxsQFb8OvHQD1mguz6gol+8ADGyohJD9CH+H8Xt5TO2hSNMqrasaalhoSGJOh+UrUq8ORlPH4l+jTewF/sjawyVOHM5l95h4d7L8GY3B1UMoFp6LBVGbKHFiqAaaAXINsvI+HL6R9JdULwkXlRBiGOZWYEGIY5kGAkJMIGxIkwtAIQhAiV4gIUUMDq9RtGZbgZVBuCeasOHWWz2OF7NYWphaTVEYOaakulRwdd7he3EnlI/ZnHtaYuvTyG06A/4eBTNRhkpkL8Z1qsx00YC9tSOkwOy+CNTEhVvdadV2JGgCi5BHkDPU9q9nsKRRagCIV0tY5EGVV0PDn5zk/8AzzY7VKxeoLoAG11DDW1/A34f0+MftzZ3D9WpeqqpCnnqUlbvNDbKDlupuGJF7aX872BN5rYSvVoI9FqNRg5vkooGpjMhVg7k717rwLcJ9EoYCnTvkpohPHIirf2nl+1XaHuT3VLVzcPUUgFNbZVuCL6G55W68Izza1rrMTeHOZ3qvJYvY9OmneOah0UuABTNPMQLMSN/jpa2pA8ZO0K9OnSoIop0TTq5KhDb2RRuubLdjZipIJN8wvpH7TYllo0aYR2NSlTdmdiwD5mJBP3nzevCJsPs81ZDVr75uSobULckkD1Jl98nxnn2jHH8748Rl4jGNh3Bwldameyh0pOvEjQk87jlcaceU4Ns1MRWZGxTtUJDBSaiLcAnMxJ0GpOrT12K2Xktl0twtpaZeO2B3lnuwawHUZRwFuXpM8/kS+2uvx7PTBxuLYFUSmaIVtFVw7OGAC3I04Dhre848fTY1LOLMwXTS6j8Pvc+s1W2MyFSz5hcXDDViOBLXv0Et2Xss1sU54pSyi55tlBltck+PcZ549fL40mG2QoQEs6sRxVyPlwnV3meo5I31VEJsACLswI/umjjbDdHLScAUC55k3PsB9BMuLWtd9tObGcydJkGSTFJmzApMQx4pgKZBkmQYEQhCBrwhCAQhCAT6VhjbD0x0pqPlPmhn0mm3/Lof8tfoJz8/wBOjg+3hO1VckVB4G3nNTsrtSnhgEq7qZVAcfCijUK39x9p5nb9QvW7sffqLfwUHMx9AD7TVyK6nKftLXy/A4udct+I4m3DS3O814cTWb2rzbs1On0ynWVwGRgy9VIImBidgHvBUTIGXVWNNC4a5YtqCL3JN/GeFTaNSi57h2SpcnKDYMxFhYHQjhp/s7tLtnVRmp1FSpkWmGa4pnO3EdLWt72814dZ/monLnX9RobS2MXvUrO1RwGIub2vqco4Lc9BOjZSMmHUsmTMCQl7kC+mvlY+s4a3aymwbNTqAgXsLMWBNtPccZiYjtuCLLSbmBmYLw8rzG8W7fMbzlxJ7a2KOZ/WTXQBek8hie09RkzogVu8y8CwCkCx4i2pHtDC08ZjXFNc1RrFjvBKNNeF3Itm8uevHlM4L/tekX8iesztG38ciqVRr1NAoXebNfSy856OlhRhqIUiztv1PznUj04ekv7N9iFoOMRimSo6f9NF1po3J9QLnp011OlrO0DLqOfL3ld9fzn0vju35aeVxD3J8ZQYzcYs6MZ+McvJr5aQYsYyCZZmgysmO0QwFJi3jERYBCRCBswjWkWgRaRaPaQRAUz6G7WwqdSi/SfPiNJ77am5hl8EH0mHN9Ojg+3zrDDvMezEXFMMfJmOUfLNNfa+CGTOL09SSMpKr5DiDqOHQ8Ji7NJzYipexZ8oNgdFF7+5+s0Km0aoGVzmTllYgedjz8rTq4pZmObkveqyKaG+a7OrXbQ62W93I658oufGU4TFbpY3IfPqHIezG+t73PrOnGfaG9yCVtxa9ulxxE5UwxAstiBNOvKvfhY2MAD5RlHdmyXIzOGVibDTgpN/CZaYh2Ugsct7lFNgT8/pO/uTdjpYU6lxex1Rh+sop4X4jYfERpewsTe0izySo2dgKmIqGnTtnqMmRWPGwOpJF7C1ybcJ9Y2ZQpYOn3FLeKqGqObZnfgXa3U3sOU8x2XFPDYTFY2owXK/cpfiTlD2XqSWUW8BMPAdoa1M1aj2JrMGKtrZFvlTqCLn3M5+TOtWzP06uO4zmXXuvoWJ2jZCSdT9J43aWONRjY6Th2h2o7waoFIFgoLfqLzmwVY1EDkWuW08jaZ54tS96W3zZuesrjIjWimbOZBkGTFJgQTEjGKYCmKYzRTAiEiEDdhJhAiQZMUwAnSe47Quf8KhHNQPlPCu2VSwXOQCQl7ZvC829o7B2jjqS56i0kCXFJnOptzCC3vw6mZcmZbO7034tWd9R53DrZBrYmo75hyuxy6dLS3eUWFip+6Sbf8AieU49l0WRFpnihdH/pbOxP1nW+nHMvlYqfeduJ/jHLr3VDNqdbeBFx7ykP8AkPuCJY1S3B1Pmv7ynvx+JPUGEKv8RYvcD4TqTa3L9ZQcQ7kqm6pLHhqRc3J6CXOFYNcjgNOFxmWU0cQxuKaamwuBfQcpHurfToXAAqDUZ26Ii84lZQostOx4AMSXI6kcvWX06TkXqvUt+BLi/hfjIroqrm7vIOXeOqD+1bk+slVj4lWB15che009jNemR0ZpnYhb8BfnuqVX3PHynbsU6VB+U/WZ6WjRMiNCZrFIikRjIMBGlZlkrMCGiGOYhgReEiEDfhIhADFMaLA6tmYfvK1NOrrf8o1PyE+lqQBbw1nhOyrouJGfiykIejc/lNOptu20lwhuoqU2sSw+JdRYdTr6Tn5e7r/jq4pPj28biat8VjLGwGIPD7t1XUjzvIaoy3vYX8Da3mOIleJw5XaOMUHRij3PMEEX95bVUKLafOdvHe8xx8k61WfXrjonmP4nJVxFr2+QnRiH8flMnFVJa1EiRXzPl1JKtpfkBmPyUzZoJUAFmyD+gKLDx0MxtgU89cniFRj6mwHyJno0I5Gx6W0kZ89p0rNGof8AuE+VS3/zKKtAi2Z2Pmyk39prrSJH3Tw5fzObGI1tLjTkBL1VhY0/m9WJv7y7YqEB2PMqB6XnJj7A+PibmaWx1tSBP3mY+nD9JlpaOy0UxzEMzWRFMaKYCGIZYZWYCmQYxiNAW8JEIHoISYQIkSYQLMJV7uojj7jBvTmPaa+0dmjFYuljcPVph6RS9NhYsBfNvX6E8jMSErrPd7aY5Pj4s7hcfhRT2lVFmANNGGfi2ut/WdVREHEdJwUUtXz/AOWB8zNF9RbjodZvidZkY718tWvPbRQDUC36zzmKeeo2oBYjwM8nijvSNGW92Wo2R3P33Cj8q/ux9poU03iPG0Nk0slCmvA5Qx823j9Z00Kf2h05nxk4+0adqUwBqNZRi6ehI6cP2mo1OwAOs4cdbn/pL1WPHbRN3PUazcw1PIiJ+FVB87azEqjNWUcbuo9C2p9p6AzLTSFimNIMokhkGMYpgIYhlhiNAQxDHMUwFhCEDevC8rzwzwLLyLyvPC8CwmQTEvIzQLKZ3wfAidj8Ok4UbUeo9/4nWDpebZ9Ka9sbauqnrrPJVVzVAv4mC+5tPV7V0U9Z57Z6Z8TTHIPm/t1/SV0mPXgW05DSXYVPtD+YznzTqwGrt5n2Ecf2jTVbh4+EyNqscp9ZrudBbT6Cef23VAU28Zeqxh7Op5q5PJAT+g+s2jMvYqbrv+I2HkP5+U0rzG+2kBikwLRSZCReQxgTFJgBlZjExCYENEMYmITALwkXhA1c0jPKM8nNAuzwzynNDNAuzyC8qzSM8DpptqB4gzRRLi/TpMhBex8RNguAvGbZ9M9e3ndtPZTM3YKfaO/RbepI/wBDLtu1btYHnLtmUslPXixzHytoJSrRo5po7OG83W59rzJU6jzmngG3jbrJwjTWf4fIH36zx23autus9hi2OS/QT5/tR8znzltIy08GMtNB/Tf31/WXlpSpsAOgAgWmLRZeQWlZaKXgWFopaLeKWgOWilohaKWgMWikxS0UtAa8ImaEDszQzRIQHzQzRIQHzQzRLQtA6u8tk8gff/Yk4rHgJa85K7WC+UysTVm3fhTpKN3lUX4Xv6DWa2eZGzFu5PRT85qzOrw4fnNHBPlLfKZc68NUIsT5ScXyrWntCschIOtvnPGuM1RQ3Nhf31E9NjHuh8r6GeXJ+0X8w+stojXzSM0SBmSxi0UtFkQGLRS0gyIElpBaRFMCS0UmEUwDNCRCBo2k2j2haAmWGWPaFoCWhaPlk2gcmK4DymPiDrNXGtqR0t9JlVBNfpWO7ZCbrt1IHsP3mjlnPspPsl8Sx+dv0nVaZ1YlpaSAoJ6EDx1i2kVfujoD89ZbPtW+i16xyEfxMYnfXxYfWaNcm0z6C3qoPG/trLaI1rSLRyIpmSxCJBEcxDAUyDGMUwIimNIMBDFMYxTAISIQNnLDLGywywFywyx8sMsBIWj5ZXXqLTUu17DkOJPQQOWthzULtTBYLkLZQSq5hpw15H9pkYmmVBJ0tqetvKa/ZrblOg7rVXLTqEm6i5RrniOYjdpcdh2U93URywI3eh5mReTUvXS8xm577PhKOSmi9Br5nUy4rOLY1dqlMZhqllvawYcjO8rJUJaVYjl5CX2nNiX3rdAL/KXx7VrkxJ0M59mJd2b8K/M/wY+LbQx9lLuM3Mtb0A/eTojuMgmDGKZmsgmKZJimBBimSZBgKYpjGKYEGKZMgwIhCEDftC0sIkZYCWk5Y+WFoCWilb6HUHrLbSrEPlSo34UY+wMDx9drsxHAsxHkTKQt2UdWUe5tJkK1mU9GU+xBkj12Dw3dqy3Bu7MLC1lJJC+lz7y5jKqmKUX1lDYoHnIHSzTmxQufQSFqZiB1IHhFxDbx5W0mmFaz8doPOdOzT9mPEsfnb9Jn457m008IlqaD+kH31/WNEXkxY1pFpmsQyJYRFIgIYpjmIYCmKY5ikQEhGIkWgLaEa0IHocsLSzLDLArtJjZZIWBWZx7Va1Cpz3be5A/WdxWU4mjnR0P3lIgeIMVhOirQZGKsDccdJWqFmVQCSTwtqZI0MxMvpUWPKd+B2dYAvx6TRWio5SBi1RkQuQdOHLXl5TbY4CtTDri0SplUOldLbwFjlLWNvIkTJ2+4Wmqc2Nz1sOfvPOMYsv1elpZPc7bgoU3qFVqK+XXc5i/HNr1E7lp20A0GkxezYvWfp3bf+yz03dx5VrjySCk6WWVuYFDLEaO7ytmgKYhjyAICWhaWhIwSBSFhlnQKckU4HPkhOju4QNqFpOWTaAtpFo1oQFIisse0gwKKlBG+JVbzAMWnhkT4EVb8cqgXnQRFgQEk2k3heB5Ha/ed65qWFrAAG9lPwgel/eZrT0HadF+zYfE2ZT0KjX6n5zzzSRdsyuadZH1tms1vwnQ/LX0nr6mJXrPGYb419beBtxmshZud4Gm+KlBq3i0sMxnZTwcgcouY6oZ3phZctGBmrSli0Z393J7uBxd1GFOdeSQUgc3dQ7qdOWRlgc/dSZflkwOzLDLLLQywKisMsttItAqKyLS20i0CoiLlluWRaBUVisJaVissDzHaa+dByCk+pP7CYjLPT9oMGzhXXgoIbw6GeerUHUa2kiml8S+c9Ls3D3AJmPsvZz1GuBuji33fIHmZ7DD4cIAByECKdK0uCxgsm0gLaTaEm0CLSLRrSLQFtIIjWhaBXaRaW2kFYFdoR8sIHbCEIBIhCBBkQhADIhCAshpMIFYlP+DpXv3dO/XIsISR0lQBYCw6QhCQCEIQCRCEAhCECDCEIECQYQgRCEIH/9k=">
+      </div>
+      <div class="newdeal">
+        <a href="https://www.myntra.com/kids?rf=Price%3A75.0_900.0_75.0%20TO%20900.0"><span class="link"></span></a>
+        <div class="positioning bg-warning">Kids Wear<br>UNDER Rs.899</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/11611714/2022/8/10/57426058-5ed3-4fad-8d75-870dbe4e21971660129260199NaughtyNinosGirlsBlueDenimShirtDress1.jpg">
+      </div>
+      <div class="newdeal">
+        <a href="https://www.myntra.com/women-footwear?f=Categories%3AFlats%2CHeels&rf=Price%3A199.0_1300.0_199.0%20TO%201300.0"><span class="link"></span></a>
+        <div class="positioning bg-warning">Flats & Heels<br>UNDER Rs.1299</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/20015264/2022/9/17/f1fd9821-ea8c-4fe1-ad5c-5cdaba2c4b841663406572478FlatnHeelsKhakiSuedeStilettoPumps1.jpg">
+      </div>
+      <div class="newdeal">
+        <a href="https://www.myntra.com/home-furnishing?rf=Price%3A85.0_1000.0_85.0%20TO%201000.0"><span class="link"></span></a>
+        <div class="positioning bg-warning">Home Furnishings<br>MIN 60% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/productimage/2021/6/22/c755c045-5ead-4328-b5c0-750c51b09b9d1624349304259-1.jpg">
+      </div>
+           
+    </div>
+    </div>
+    <div class="container-fluid seventh">
+      <div class="row">       
+        <p class="text-center text-success head">
+          <span class="text-danger glyphicon glyphicon-heart p-2"></span>CELEBRATED BRANDS<span class="text-danger glyphicon glyphicon-heart p-2"></span></p>        
+        <p class="text-center text-primary fs-1"><b>THE STARS OF THE SHOW</b></p>        
+      </div>      
+    </div>
+    
+    <div class="container-fluid eighth">
+      <div class="d-flex flex-row flex-wrap justify-content-center">
+        <div class="newdeal" style="border-image:url('https://www.pngmart.com/files/5/Blue-Border-Frame-Transparent-PNG.png') 20% round;">
+          <a href="https://www.myntra.com/realme?sort=popularity&rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0"><span class="link"></span></a>
+          <div class="positioning bg-primary">Earbuds & More<br>UPTO 50% OFF</div>
+          <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/20623916/2022/12/14/315ca57a-82c8-43f6-879f-840a52ee64341670991309344-Realme-Unisex-Headphones-6301670991308429-1.jpg">
+        </div>
+        <div class="newdeal" style="border-image:url('https://www.pngmart.com/files/5/Blue-Border-Frame-Transparent-PNG.png') 20% round;">
+        <a href="https://www.myntra.com/footwear?f=Brand%3ACarlton%20London%2CCarlton%20London%20sports%3A%3AGender%3Amen%2Cmen%20women&sort=new&rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0"><span class="link"></span></a>
+        <div class="positioning bg-primary">Casual Footwear<br>UPTO 55% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/21247788/2022/12/19/bce3de5c-cd90-46b6-bd7f-961cd82774ba1671464571335CarltonLondonMenOliveGreenRubberClogs1.jpg">
+      </div>
+      <div class="newdeal" style="border-image:url('https://www.pngmart.com/files/5/Blue-Border-Frame-Transparent-PNG.png') 20% round;">
+        <a href="https://www.myntra.com/lacoste?f=Categories%3AShirts%2CSweatshirts%2CTrack%20Pants%2CTshirts%3A%3AGender%3Amen%2Cmen%20women&rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0"><span class="link"></span></a>
+        <div class="positioning bg-primary">Premium Collection<br>UPTO 30% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2085658/2017/9/4/11504515571572-Slim-fit-Lacoste-polo-in-petit-pique-2831504515571468-1.jpg">
+      </div>
+      <div class="newdeal" style="border-image:url('https://www.pngmart.com/files/5/Blue-Border-Frame-Transparent-PNG.png') 20% round;">
+        <a href="https://www.myntra.com/better-jeans-company-"><span class="link"></span></a>
+        <div class="positioning bg-primary">Breathable & Stylish<br>UPTO 40% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/20519744/2022/12/3/96bb073f-77a7-4aca-a211-bbe51101d5bb1670051143713-Peter-England-Better-Jeans-Company-Men-Blue-Custom-Fit-Mid-R-1.jpg">
+      </div>
+      <div class="newdeal" style="border-image:url('https://www.pngmart.com/files/5/Blue-Border-Frame-Transparent-PNG.png') 20% round;">
+        <a href="https://www.myntra.com/mens-casual-wear?f=Brand%3ADenizen%20From%20Levis%2CLevis%2CTommy%20Hilfiger%3A%3ACategories%3AJackets%2CJeans%2CShirts%2CShorts%2CSweaters%2CSweatshirts%2CTrack%20Pants%2CTrousers%2CTshirts&rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0"><span class="link"></span></a>
+        <div class="positioning bg-primary">Top Casuals<br>MIN 40% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/productimage/2019/12/12/1aab2a18-6774-4f83-b292-fe301755a3351576102551329-1.jpg">
+      </div>
+      <div class="newdeal" style="border-image:url('https://www.pngmart.com/files/5/Blue-Border-Frame-Transparent-PNG.png') 20% round;">
+        <a href="https://www.myntra.com/mens-casual-wear?f=Brand%3AFlying%20Machine%2CU.S.%20Polo%20Assn.%2CU.S.%20Polo%20Assn.%20Denim%20Co.%3A%3ACategories%3ABlazers%2CJackets%2CJeans%2CShirts%2CShorts%2CSweaters%2CSweatshirts%2CTrack%20Pants%2CTrousers%2CTshirts%2CWaistcoat&rf=Discount%20Range%3A60.0_100.0_60.0%20TO%20100.0"><span class="link"></span></a>
+        <div class="positioning bg-primary">Casual Trends<br>MIN 60% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/7488103/2019/8/22/acfba45f-8f9c-4b97-b5bc-a909418bdf4c1566454100620-Dennis-Lingo-Men-Green-Slim-Fit-Solid-Casual-Shirt-358156645-3.jpg">
+      </div>
+      <div class="newdeal" style="border-image:url('https://www.pngmart.com/files/5/Blue-Border-Frame-Transparent-PNG.png') 20% round;">
+        <a href="https://www.myntra.com/mens-casual-wear?f=Brand%3AHIGHLANDER%2CJack%20%26%20Jones%3A%3ACategories%3ABlazers%2CJackets%2CJeans%2CShirts%2CShorts%2CSweaters%2CSweatshirts%2CTrack%20Pants%2CTrousers%2CTshirts%2CWaistcoat&rf=Discount%20Range%3A65.0_100.0_65.0%20TO%20100.0"><span class="link"></span></a>
+        <div class="positioning bg-primary">Bestselling Casuals<br>MIN 65% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/1364628/2016/8/31/11472636737718-Roadster-Men-Blue-Regular-Fit-Printed-Casual-Shirt-6121472636737160-1.jpg">
+      </div>
+      <div class="newdeal" style="border-image:url('https://www.pngmart.com/files/5/Blue-Border-Frame-Transparent-PNG.png') 20% round;">
+        <a href="https://www.myntra.com/mens-casual-wear?f=Brand%3AGANT%2CNautica%3A%3ACategories%3ABlazers%2CJackets%2CJeans%2CShirts%2CShorts%2CSweaters%2CSweatshirts%2CTrack%20Pants%2CTrousers%2CTshirts%2CWaistcoat&rf=Discount%20Range%3A55.0_100.0_50.0%20TO%20100.0"><span class="link"></span></a>
+        <div class="positioning bg-primary">Casual Picks<br>MIN 50% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/12957314/2022/4/13/194bb0a0-b196-40f8-9038-6fbd4e3651461649824365055UnitedColorsofBenettonMenBlueSlimFitDenimCasualShirt1.jpg">
+      </div>
+      <div class="newdeal" style="border-image:url('https://www.pngmart.com/files/5/Blue-Border-Frame-Transparent-PNG.png') 20% round;">
+        <a href="https://www.myntra.com/mens-casual-wear?f=Brand%3ADeFacto%2CORIGIN%20BY%20ZALORA%2CZALORA%20ACTIVE%2CZALORA%20BASICS%3A%3ACategories%3ABlazers%2CBoxers%2CBriefs%2CJackets%2CJeans%2CLounge%20Pants%2CLounge%20Shorts%2CLounge%20Tshirts%2CShirts%2CShorts%2CSweaters%2CSweatshirts%2CThermal%20Tops%2CTrack%20Pants%2CTrousers%2CTrunk%2CTshirts&rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0"><span class="link"></span></a>
+        <div class="positioning bg-primary">Classy Casuals<br>UPTO 60% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/19818628/2022/9/6/ec27eee6-d613-4423-8e0f-007aea1603c31662468109188Shirts1.jpg">
+      </div>
+      <div class="newdeal" style="border-image:url('https://www.pngmart.com/files/5/Blue-Border-Frame-Transparent-PNG.png') 20% round;">
+        <a href="https://www.myntra.com/mens-casual-wear?f=Brand%3ADeFacto%2CORIGIN%20BY%20ZALORA%2CZALORA%20ACTIVE%2CZALORA%20BASICS%3A%3ACategories%3ABlazers%2CBoxers%2CBriefs%2CJackets%2CJeans%2CLounge%20Pants%2CLounge%20Shorts%2CLounge%20Tshirts%2CShirts%2CShorts%2CSweaters%2CSweatshirts%2CThermal%20Tops%2CTrack%20Pants%2CTrousers%2CTrunk%2CTshirts&rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0"><span class="link"></span></a>
+        <div class="positioning bg-primary">Stylish Casuals<br>STARTING Rs699</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/10341699/2022/8/25/c23fd879-a9b3-4515-a181-558523a71b9b1661423122029-LOCOMOTIVE-Men-Black--Grey-Slim-Fit-Checked-Casual-Shirt-342-1.jpg">
+      </div>
+      <div class="newdeal" style="border-image:url('https://www.pngmart.com/files/5/Blue-Border-Frame-Transparent-PNG.png') 20% round;">
+        <a href="https://www.myntra.com/mac?sort=popularity"><span class="link"></span></a>
+        <div class="positioning bg-primary">Luxe Makeup<br>GIFT PURCHASE</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/10213545/2019/10/10/e0ed7339-d63c-4d6a-abb4-bd8931c4bd391570703866570-INCOLOR-Women-Makeup-Kit-UC005-165-gm-7791570703865939-1.jpg">
+      </div>
+      <div class="newdeal" style="border-image:url('https://www.pngmart.com/files/5/Blue-Border-Frame-Transparent-PNG.png') 20% round;">
+        <a href="https://www.myntra.com/personal-care?f=Brand%3ABiotique%2CLotus%20Botanicals%2CLotus%20Herbals%2CLotus%20Organics%2CTaavi&pinProductsCsv=1661465,1919958,9314861"><span class="link"></span></a>
+        <div class="positioning bg-primary">Top personal care<br>MIN. 25% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/16928094/2022/2/7/19ed00ed-8c16-404f-8563-c1e96b23f62f1644230782287-Olay-Women-Face-Moisturisers-5391644230781964-1.jpg">
+      </div>
+      <div class="newdeal" style="border-image:url('https://www.pngmart.com/files/5/Blue-Border-Frame-Transparent-PNG.png') 20% round;">
+        <a href="https://www.myntra.com/personal-care?f=Brand%3AETUDE%2CInnisfree%2CLANEIGE%2CTONYMOLY%2CThe%20Face%20Shop&pinProductsCsv=20777360,20174160,20174158,20174156"><span class="link"></span></a>
+        <div class="positioning bg-primary">Korean Skincare Ess.<br>UPTO 50% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/16242364/2022/4/8/9cc776d1-9c70-493b-850b-cb41213e29321649418891962-Quench-Botanics-Mama-Cica-Pore-Clearing-Exfoliating-Face-Was-1.jpg">
+      </div>
+      <div class="newdeal" style="border-image:url('https://www.pngmart.com/files/5/Blue-Border-Frame-Transparent-PNG.png') 20% round;">
+        <a href="https://www.myntra.com/womens-western-wear?rf=Discount%20Range%3A60.0_100.0_60.0%20TO%20100.0"><span class="link"></span></a>
+        <div class="positioning bg-primary">Trendiest Tops<br>MIN 60% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/12222036/2020/10/6/d7ae3065-98d4-42d0-b244-d2b18802ff101601959656577-SASSAFRAS-Women-Black-Solid-High-Neck-Cropped-Top-4441601959-1.jpg">
+      </div>
+      <div class="newdeal" style="border-image:url('https://www.pngmart.com/files/5/Blue-Border-Frame-Transparent-PNG.png') 20% round;">
+        <a href="https://www.myntra.com/womens-western-wear?f=Brand%3AAntheaa%2CAthena%2CKASSUALLY%2CSASSAFRAS%2CplusS%3A%3ACategories%3ADresses&rf=Discount%20Range%3A60.0_100.0_60.0%20TO%20100.0&sort=popularity"><span class="link"></span></a>
+        <div class="positioning bg-primary">Dresses<br>60%-80% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/9052863/2020/2/17/9ed33a1d-1c3f-4164-9617-c555f3f378691581934823926-Miss-Chase-Women-Peach-Coloured-Printed-Maxi-Top-98415819348-1.jpg">
+      </div>
+      <div class="newdeal" style="border-image:url('https://www.pngmart.com/files/5/Blue-Border-Frame-Transparent-PNG.png') 20% round;">
+        <a href="https://www.myntra.com/womens-western-wear?rf=Discount%20Range%3A60.0_100.0_60.0%20TO%20100.0"><span class="link"></span></a>
+        <div class="positioning bg-primary">Stylish Trends<br>MIN 60% OFF</div>
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/10308625/2019/7/26/d9c41f8f-d0b8-409b-bc6e-9f098686537b1564143903185-SASSAFRAS-Women-Dresses-1251564143902226-1.jpg">
+      </div>     
+    </div>
+    </div>
+
+    <div class="container-fluid mt-3 nineth">
+      <h2 class="text-center text-seconadry fs-1 head">DEAL OF THE DAY</h2>
+      <div class="row">
+        <div class="col-sm-3 newcard">
+        <div class="card" style="width:200px; margin-top: 5%;">
+          <a href="https://www.myntra.com/women-kurtas-kurtis-suits?f=Categories%3AKurtas&rf=Price%3A239.0_900.0_239.0%20TO%20900.0&sort=popularity">
+            <img class="card-img-top" src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/15258142/2021/9/16/9dff36a9-d566-4733-98bd-451c07ba53221631786408779-Libas-Women-Kurta-Sets-691631786407588-1.jpg" alt="Card image" style="width:100%"></a>
+          <div class="card-body bg-dark text-light text-center">
+            <h4 class="card-title">Kurtas</h4>
+            <p class="card-text">Under Rs.899</p>          
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-3 newcard">
+          <div class="card" style="width:200px; margin-top: 5%;">
+            <a href="https://www.myntra.com/home-furnishing-menu?f=Categories%3AAir%20Fryer%2CAprons%2CBakeware%2CCoffee%20Maker%2CCookware%2CCutlery%2CDining%20Essentials%2CDinnerware%2CEgg%20Boiler%2CElectric%20Barbecue%2CElectric%20Chopper%2CElectric%20Kettle%2CJuicers%2CKitchen%20Linen%20Sets%2CKitchen%20Storage%2CKitchen%20Tools%2CKitchen%20Towels%2CSandwich%20Maker%2CServeware%2CSoup%20Maker%2CTable%20Cloth%2CTable%20Covers%2CTable%20Napkins%2CTable%20Placemats%2CToasters&rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0">
+              <img class="card-img-top" src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/18195900/2022/5/9/6f08c064-3448-40af-be34-dcddb9c90d281652068651072Dinnerware1.jpg" alt="Card image" style="width:100%"></a>
+            <div class="card-body bg-dark text-light text-center">
+              <h4 class="card-title">Dinnerware & Kitchenware</h4>
+              <p class="card-text">Upto 70% Off</p>          
+            </div>
+          </div>
+          </div>
+          <div class="col-sm-3 newcard">
+            <div class="card" style="width:200px; margin-top: 5%;">
+              <a href="https://www.myntra.com/mfb-brand?f=Categories%3AFlats%2CHeels%3A%3AGender%3Amen%20women%2Cwomen&rf=Discount%20Range%3A60.0_100.0_60.0%20TO%20100.0">
+                <img class="card-img-top" src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/16977264/2022/1/29/183c2e7c-df86-401a-8eec-feda7786659c1643453457835DenillPeach-ColouredPrintedKittenPumps1.jpg" alt="Card image" style="width:100%"></a>
+              <div class="card-body bg-dark text-light text-center">
+                <h4 class="card-title">Flats & Heels</h4>
+                <p class="card-text">Min 60% Off</p>          
+              </div>
+            </div>
+            </div>
+            <div class="col-sm-3 newcard">
+              <div class="card" style="width:200px; margin-top: 5%;">
+                <a href="https://www.myntra.com/kama-ayurveda">
+                  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHxI18XNsRDbe1oID6DtnozpPED32xWSfFTQ&usqp=CAU" alt="Card image" style="width:100%"></a>
+                <div class="card-body bg-dark text-light text-center">
+                  <h4 class="card-title">Natural Care</h4>
+                  <p class="card-text">Gift With Purchase</p>          
+                </div>
+              </div>
+              </div>
+      </div>
+    </div>
+
+    <div class="dropdown dropstart text-end ">
+      <button type="button" class="btn btn-primary dropdown-toggle fixed" data-bs-toggle="dropdown">
+        FLAT Rs400 OFF
+      </button>
+      <ul class="dropdown-menu bg-danger" style="padding: 5%;">
+        <li class="dropdown-item text-light">Flat Avail <b style="font-size: x-large">Rs. 200 OFF</b></li><br>
+        <li class="dropdown-item text-light"><b style="font-size: large">+FREE SHIPPING</b></li><br><br>
+        <li><a class="btn dropdown-item text-light bg-dark d-inline" style="padding:5%"href="https://www.myntra.com/login?referer=https://www.myntra.com/">Sign Up For More</a></li>
+      </ul>
+    </div>
+</body>
+</html>
